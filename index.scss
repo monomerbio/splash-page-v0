@@ -1,0 +1,81 @@
+body {
+  background-color: #334165;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+}
+
+.logo {
+  margin-top: 185px;
+  margin-bottom: 50px;
+  padding: 50px;
+  background-color: #334165;
+  width: 450px;
+}
+
+.text {
+  text-align: center;
+}
+
+.description {
+  font-size: 24px;
+  font-weight: 100;
+  width: 500px;
+  margin: 0 auto;
+  line-height: 1.4em;
+  letter-spacing: 2px;
+}
+
+.divider {
+  height: 30px;
+}
+
+.link {
+  margin-top: 50px;
+  background-color: #14AFAF;
+  color: black;
+  padding: 15px 20px;
+  font-weight: 300;
+  display: inline-block;
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover {
+    background-color: lighten(#14AFAF, 10%);
+  }
+}
+
+.left-border {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  width: 100px;
+  background-image: url("dna_monomer_left.svg");
+  background-repeat: repeat-y;
+  background-position: 0 22px;
+}
+
+.right-border {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 10px;
+  width: 100px;
+  background-image: url("dna_monomer_right.svg");
+  background-repeat: repeat-y;
+}
+
+.horizontal-line {
+  top: 267px;
+  position: absolute;
+  left: 80px;
+  right: 107px;
+  height: 5px;
+  background-image: url("dotted_line.svg");
+  background-repeat: repeat-x;
+  z-index: -1;
+}

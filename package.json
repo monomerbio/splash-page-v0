@@ -1,0 +1,16 @@
+{
+  "name": "splash-pagep-v0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build": "sass index.scss index.css",
+    "watch": "sass --watch index.scss index.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "sass": "^1.30.0"
+  }
+}
