@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Liquid Monitor Station Datasheet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <h1>Liquid Monitor Station Datasheet</h1>
+    <p>
+      Add quality control to your assays without needing to add an additional device in your workcell or on your benchtop.
+      These stations fit right on top of your existing instruments. Don't wait till the end of all your experiments to find
+      out about evaporative edge effects or clogged nozzles. Discover those failure modes right when and where they happen.
+      Reagent dispensing has been known to vary by as much as 10% over a 1-day time period. Use our analysis tools to see
+      trends in your own lab over time or across plates for yourself. Get peace of mind that you are drawing real biological
+      conclusions from your data rather than interpreting liquid handling aberrations.
+    </p>
+    <p>
+    <img
+      src="images/Ultrasonic_Station_RA.png"
+      width="450"
+    >
+    <img
+      src="images/Ultrasonic_Station.png"
+      width="450"
+    >
+    <img
+      src="images/Multidrop_and_Inline_Sensor_Station.png"
+      width="450"
+    >
+    <img
+      src="images/IntelliXCap_and_Inline_Sensor_Station.png"
+      width="450"
+    >
+    </p>
+    <h2>Features</h2>
+    <ul>
+      <li>Measure liquid level of individual wells or tubes.</li>
+      <li>Detect presence or absence of caps, seals, or lids.</li>
+      <li>Flag droplets, bubbles, and as of yet unknown anomalies using a spectral camera. (In development.)</li>
+      <li>Cross reference with local recordings of temperature and humidity. (In development.)</li>
+    </ul>
+    <p>Measuring inline ensures <em>all</em> dispenses are automatically scanned. Labware is scanned on the instrument as
+      its tray extends. Cross reference with commanded volumes and get notified when the dispensing cassette needs to be
+      replaced rather than relying on an arbitrary monthly calendar event.
+    </p>
+    <h2>Device Compatibility</h2>
+    <ul>
+      <li>FluidX IntelliXcap</li>
+      <li>Multidrop Combi SMART (coming soon)</li>
+      <li>PF400 (coming soon)</li>
+    </ul>
+    <h2>Interfaces</h2>
+    <ul>
+      <li>For manual operation use our browser based user interface optimized for collaboration. Try for yourself here (link
+        for live app available soon).</li>
+      <li>For automation use our gRPC interface. The API is open and publicly available <a
+          href="https://monomerbio.com/api">here</a>.</li>
+    </ul>
+    <h2>Specifications</h2>
+    <h3>Dimensional drawings</h3>
+    <p>
+    <img
+      src="images/Dimensions_Ultrasonic_Station_RA.png"
+      width="450"
+    >
+    <img
+      src="images/Dimensions_Ultrasonic_Station.png"
+      width="450"
+    >
+    </p>
+    <p>Dimensions side station (left) [DxWxH]: 165.0 x 175.0 x 217.4 mm</p>
+    <p>Dimensions bridge station (right) [DxWxH]: 38.1 x 199.5 x 196.4 mm</p>
+    <h3>Positioning above containers</h3>
+    <p>
+      Use the adjustment screws on the top of the station to set the reference mounting distance of the sensors above
+      microtiter plate wells or tubes.
+    </p>
+    <img
+      src="images/Positioning_Ultrasonic_Sensors.png"
+      width="450"
+    >
+    <h3>Electrical</h3>
+    <p>Power: 15-30 V DC, &#x3C;=35 mA per sensor</p>
+    <p>Portrait mode (8 sensors): 280 mA</p>
+    <p>Landscape mode (12 sensors): 420 mA</p>
+    <h3>Volume Accuracy Table</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Labware type</th>
+          <th>Precision [%]</th>
+          <th>Accuracy [%]</th>
+          <th>Precision [uL]</th>
+          <th>Accuracy [uL]</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Micronic 1.40 ml tubes</td>
+          <td>2</td>
+          <td>2</td>
+          <td>20</td>
+          <td>20</td>
+          <td>Determined by independent party (Ginkgo Bioworks)</td>
+        </tr>
+        <tr>
+          <td>96-well plate</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>In development</td>
+        </tr>
+        <tr>
+          <td>384-well plate</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>In development</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "build": "sass index.scss index.css",
-    "watch": "sass --watch index.scss index.css"
+    "build": "sass site/index.scss site/index.css",
+    "watch": "sass --watch site/index.scss site/index.css"
   },
   "author": "",
   "license": "ISC",
